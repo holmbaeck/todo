@@ -4,7 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Run `npm install` from ./ for to install dependencies for frontend UI
+
 Run `npm start` from ./ for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Backend server
+
+Run `npm install` from ./backend to install dependencies for the backend todo service
 
 Run `npm start` from ./backend for a todo rest service backend running on `http://localhost:3000`
 
