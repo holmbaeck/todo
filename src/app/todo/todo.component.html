@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{appModel.title}}!
+  </h1>
+  <input type="text" [(ngModel)]="newTodo.description" />
+  <button (click)="createTodo()">Click</button>
+
+  <ul>
+    <li *ngFor="let todo of todos">
+      {{todo.state}} | {{todo.description}} 
+      <button *ngIf="todo.state !== 'DONE'" (click)="markDone(todo)">Done</button>
+      <button *ngIf="todo.state === 'DONE'" (click)="markOpen(todo)">Open</button>
+      <button (click)="mark(todo, (todo.state === 'DONE' ? 'OPEN' : 'DONE'))">Toggle</button>
+      <button (click)="deleteTodo(todo)">Delete</button></li>
+  </ul>
+
+</div>
+

@@ -1,0 +1,29 @@
+{
+  "name": "todobackend",
+  "version": "1.0.0",
+  "description": "TODO backend in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holmbaeck/todobackend.git"
+  },
+  "keywords": [
+    "TODO"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holmbaeck/todobackend/issues"
+  },
+  "homepage": "https://github.com/holmbaeck/todobackend#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "nedb": "^1.8.0"
+  }
+}
